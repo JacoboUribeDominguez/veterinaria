@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# RegistraLosPeludos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Frente al interés de crear una aplicación web responsive de código libre para aportar a las veterinarias, se creó "RegistraLosPeludos" donde soluciona inconvenientes como registrar las citas programadas y así no afectar la productividad de un día.\
+Principalmente se busca crear una interfáz comprensible para cualquier público, donde cualquier veterinaria puede hacer uso de esta aplicación para llevar sus registros a la orden del día.
 
-## Available Scripts
+Demo / despliegue: https://registratupeludo.netlify.app/
 
-In the project directory, you can run:
+## ¿Como descargar el proyecto?
+
+Para descargar el proyecto deberías tener instalado un compilador de código como VS CODE, GIT y NODE (npm)./
+Principalmente en una carpeta nueva en tu computador, nos dirigimos a la consola de git y tendremos que poner el comando "git clone https://github.com/JakoPapaFrita/veterinaria.git". Si no sabes usar la consola de git, te recomiendo que busques en internet lo básico de git.
+
+### `npm install`
+
+Si usas VS CODE, puedes abrir una nueva terminal y poner este comando, esto hará que se instalen las dependencias para que la aplicación funcione correctamente.\
+En caso de que tengas otro compilador de texto, puede abrir la consola de tu ordenador como cmd, dirigirte a la carpeta donde clonaste el repositorio y coloca el comando "npm install"
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este comando funcionará para ejecutar la aplicación de forma local, abriendo en tu navegador predeterminado una pestaña con el enlace "http://localhost:3000/"./
+Para hacer esta función, al igual que el anterior paso, debes ejecutar este comando ya sea en una consola o en la terminal del VS CODE.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Finalizando...
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para finalizar, aclaro que este proyecto es libre de cualquier uso y espero que les sea útil para el enfoque que se le vaya a dar.
