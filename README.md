@@ -1,8 +1,10 @@
 # RegistraTuPeludo
 
-Este proyecto es una aplicación web responsiva diseñada para aquellas veterinarias que tienen inconvenientes con mantener un registro de sus citas rápidas. Solucionando así problemas cotidianos en las que se encuentran las mismas.\
+Este proyecto es una aplicación web responsiva diseñada para aquellas veterinarias que tienen inconvenientes con mantener un registro de sus citas rápidas. Solucionando así problemas cotidianos en las que se encuentran las mismas.
 
 Los enfoques principales que se busca es a una interfáz limpia y fácil de manejar para todo público, un diseño responsivo para que sea adsequible en los diferentes accesos de internet, y la velocidad para crear registros. Todo esto con el fin de que cualquier persona pueda hacer uso de la misma, desde cualquier plataforma y de forma eficaz.
+
+Despligue del demo: https://registratupeludo.netlify.app/
 
 ## ¿De dónde surge el proyecto?
 
@@ -12,17 +14,17 @@ Este proyecto nace desde el interés de aportar a las veterinarias con producto 
 
 ### En términos funcionales
 
-La aplicación web contiene principalmente un formulario para el registro de citas, se puede observar a la izquierda si tenemos una pantalla con resolución igual o mayor a 992px ó arriba si tenemos una pantalla inferior a 992px. Este formulario sirve para registrar tu cita./
+La aplicación web contiene principalmente un formulario para el registro de citas, se puede observar a la izquierda si tenemos una pantalla con resolución igual o mayor a 992px ó arriba si tenemos una pantalla inferior a 992px. Este formulario sirve para registrar tu cita.
 
 Cuando registras tu cita aparece un apartado con las citas a la derecha si tienes la pantalla mayor a 992px o abajo si tienes una inferior. En esta cita te aparece los datos registrados en el formulario, añadiendo la hora y fecha del registro./
 
-Cuando presionamos la cita nos aparecerá una alerta preguntando que si estamos seguros que queremos eliminar la cita, y al presionar que sí se desaparecera./
+Cuando presionamos la cita nos aparecerá una alerta preguntando que si estamos seguros que queremos eliminar la cita, y al presionar que sí se desaparecera.
 
 Al momento de referirnos de una eficacia, nos referimos a que los registros se convierten rápidos y a la mano. No se gestiona una base de datos, por lo cual las citas solo aparecera en el dispositivo donde se esta haciendo uso la aplicación.
 
 ### En términos técnicos
 
-El proyecto fue desarrollado con JavaScript y su framework ReactJS ( hooks ), JSX para el simulador del HTML, CSS y CSS-in-JS en las hojas de estilos de los componentes, Bootstrap y React-Bootstrap como bibliotecas de estilos CSS./
+El proyecto fue desarrollado con JavaScript y su framework ReactJS ( hooks ), JSX para el simulador del HTML, CSS y CSS-in-JS en las hojas de estilos de los componentes, Bootstrap y React-Bootstrap como bibliotecas de estilos CSS.
 
 Como se dijo anteriormente, en ReactJS se trabajó en su absoluto con hooks básicos. El almacenamiento de las citas se guarda en el localStorage, por lo tanto la aplicación es solo frontend, y no tiene servidor, ni base de datos.
 
@@ -49,7 +51,7 @@ Para iniciar la aplicación ejecutamos este comando en la consola seleccionada a
 
 ## Preguntas, problemas ó sugerencias
 
-Esta aplicación es libre de descarga para cualquier persona,/
+Esta aplicación es libre de descarga para cualquier persona,
 
 Cualquier problema, pregunta ó sugerencia puede ser comunicado a este correo: 'jacouribe2003@gmail.com'
 
