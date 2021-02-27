@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+    /*background-image: url("https://i.pinimg.com/originals/10/24/bd/1024bda12ba9fe9a4eb34e600fbeef8f.jpg");*/
+}
+
+.bg-black{
+    display:flex;
+    justify-content: center;
+    padding: 2vh 6%;
+    background-color: #0C0C0C;
+}
+
+.container-citas{
+    background-color:#100221;
+    width:84%;
+    height:100%;
+    border-radius:7px;
+    box-shadow: inset 0px 0px 100px 60px #0C0C0C;
+}
+
+.row-container{
+    margin-top: 72px;
+    margin-bottom:137px;
+}
+
+.form{
+    padding-left:100px;
+    padding-right:40px;
+}
+
+.span-cita {
+    background-color:#430f6d;
+    border-radius: 3px;
+    padding: 3px 10px;
+}
+
+.input-time, .input-date, .button-enviar{
+    width:100%;
+    height:2.4rem;
+    border:none;
+    border-radius:4px;
+    padding: 0 13px;
+}
+
+.button-enviar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: none;
+    padding: 18px 0;
+    border: 0.1rem solid #430f6d;
+    margin-top:25px;
+    height: 2.2rem;
+
+}
+
+/*****************************************ALERT*****************************************/
+
+.alert-container{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10vh;
+    width:100%;
+    height:150px;
+    padding: 0 !important;
+    z-index: 1;
+}
+
+.alert-body-container{
+    width:30%;
+    height:150px;
+    background-color: rgb(27, 27, 27);
+    border-radius:5px;
+    padding:10px;
+}
+
+.alert-body{
+    border:2px solid #511281;
+    width:100%;
+    height:100%;
+    border-radius:5px;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.bg-si, .bg-no{
+    display:flex;
+    justify-content: center;
+    color:white;
+    width:3rem;
+    padding:5px 10px;
+    border-radius:5px;
+}
+
+.bg-si{
+    background-color:green;
+}
+
+.bg-no{
+    background-color: red;
+}
+
+/*****************************************CITAS*****************************************/
+
+.citas-col::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+.citas-col::-webkit-scrollbar-thumb {
+    background-color: #430f6d;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid none;  /* creates padding around scroll thumb */
+}
+
+.cita-container {
+    margin-top:30px;    
+    padding-right:120px !important;
+}
+
+.cita{
+    width:100%;
+    padding: 50px;
+    background-color: #430f6d;
+    border-radius:4px;
+}
+
+.cita-header{
+    color:#8e60b1;
+    padding: 10px 0;
+    font-size:20px;
+}
+
+.separator{
+    border:1px solid #330853;
+}
+
+.cita-body{
+    color:white;
+}
+
+.cita-footer{
+    color:#9477ac;
+    font-size:11px;
+}
