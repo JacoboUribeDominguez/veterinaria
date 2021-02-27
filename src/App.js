@@ -53,9 +53,9 @@ function App() {
                 <Form
                   crearCita={ crearCita }/>
               </Col>
-              <Col lg={ 2 }/>
+              <Col lg={ 1 }/>
               <Col 
-                lg={ 5 } 
+                lg={ 6 } 
                 className="overflow-auto citas-col" 
                 style={{height:'68vh'}}>
                 <h1 style={{color : 'white'}} className="my-4">
