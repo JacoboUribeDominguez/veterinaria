@@ -81,7 +81,7 @@ function App() {
     return (
       <div className="App">
         <div className="alert-container">
-          <div className="alert-body-container">
+          <div className="alert-body-container ">
             <div className="alert-body">
               <h3 style={{color:'white', fontSize:'16px'}} className="text-center">¿Esta seguro que quiere eliminar la cita?</h3>
               <Row className="mt-3">
@@ -96,13 +96,14 @@ function App() {
           </div>
         </div>
         <div className="bg-black">
-          <div className="container-citas">
+          <div className="container-citas container">
             <Row className="row-container">
               <Col lg={ 6 } className="mb-5">
                 <Form
                   crearCita={ crearCita }/>
               </Col>
-              <Col lg={ 6 } className="overflow-auto citas-col" style={{height:'68vh'}}>
+              <Col lg={ 1 }/>
+              <Col lg={ 5 } className="overflow-auto citas-col" style={{height:'68vh'}}>
                 <h1 style={{color : 'white'}} className="my-4">CITAS</h1>
                 {citas.map(cita => <Cita key={cita.id} cita={cita} eliminarCita={eliminarCita} />)}
               </Col>
