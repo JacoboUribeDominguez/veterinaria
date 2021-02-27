@@ -66,8 +66,6 @@ body {
 }
 
 .alert-body-container{
-    width:30%;
-    height:150px;
     background-color: rgb(27, 27, 27);
     border-radius:5px;
     padding:10px;
