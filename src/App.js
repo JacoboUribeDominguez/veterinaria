@@ -45,16 +45,17 @@ function App() {
     return (
       <div className="App">
         <div className="bg-black">
-          <div className="container-citas">
+          <div className="container-citas container">
             <Row className="row-container">
               <Col 
-                lg={ 6 } 
+                lg={ 5 } 
                 className="mb-5">
                 <Form
                   crearCita={ crearCita }/>
               </Col>
+              <Col lg={ 2 }/>
               <Col 
-                lg={ 6 } 
+                lg={ 5 } 
                 className="overflow-auto citas-col" 
                 style={{height:'68vh'}}>
                 <h1 style={{color : 'white'}} className="my-4">

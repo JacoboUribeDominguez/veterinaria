@@ -6,7 +6,7 @@ body {
 .bg-black{
     display:flex;
     justify-content: center;
-    padding: 2vh 6%;
+    padding: 2vh 0;
     background-color: #0C0C0C;
 }
 
@@ -21,11 +21,6 @@ body {
 .row-container{
     margin-top: 72px;
     margin-bottom:137px;
-}
-
-.form{
-    padding-left:100px;
-    padding-right:40px;
 }
 
 .span-cita {
@@ -122,7 +117,6 @@ body {
 
 .cita-container {
     margin-top:30px;    
-    padding-right:120px !important;
 }
 
 .cita{
